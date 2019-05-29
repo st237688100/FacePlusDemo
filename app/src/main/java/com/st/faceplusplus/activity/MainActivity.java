@@ -1,4 +1,4 @@
-package com.st.faceplusplus.facedetect;
+package com.st.faceplusplus.activity;
 
 import android.Manifest;
 import android.content.Intent;
@@ -23,8 +23,8 @@ import com.bumptech.glide.Glide;
 import com.plattysoft.leonids.ParticleSystem;
 import com.st.faceplusplus.R;
 import com.st.faceplusplus.base.BaseActivity;
-import com.st.faceplusplus.core.C;
-import com.st.faceplusplus.core.Network;
+import com.st.faceplusplus.api.C;
+import com.st.faceplusplus.api.Network;
 import com.st.faceplusplus.utils.JLog;
 
 import java.io.ByteArrayOutputStream;

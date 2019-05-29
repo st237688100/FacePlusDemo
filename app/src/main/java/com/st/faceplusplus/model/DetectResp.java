@@ -1,4 +1,4 @@
-package com.st.faceplusplus.facedetect;
+package com.st.faceplusplus.model;
 
 import java.util.List;
 

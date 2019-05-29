@@ -1,7 +1,6 @@
-package com.st.faceplusplus.core;
+package com.st.faceplusplus.api;
 
 
-import com.st.faceplusplus.facedetect.FaceApi;
 import okhttp3.OkHttpClient;
 import retrofit2.CallAdapter;
 import retrofit2.Converter;

@@ -18,7 +18,7 @@ import java.util.Random;
 
 import javax.net.ssl.SSLException;
 
-import com.st.faceplusplus.core.C;
+import com.st.faceplusplus.api.C;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,4 +1,7 @@
-package com.st.faceplusplus.facedetect;
+package com.st.faceplusplus.api;
+
+import com.st.faceplusplus.activity.CompareResp;
+import com.st.faceplusplus.activity.DetectResp;
 
 import io.reactivex.Observable;
 import okhttp3.ResponseBody;
@@ -16,9 +19,9 @@ public interface FaceApi {
     @FormUrlEncoded
     @POST(DETECT)
     Observable<DetectResp> detect(@Field("api_key") String api_key,
-                            @Field("api_secret") String api_secret,
-                            @Field("return_landmark") int return_landmark,
-                            @Field("image_base64") String image_base64);
+                                  @Field("api_secret") String api_secret,
+                                  @Field("return_landmark") int return_landmark,
+                                  @Field("image_base64") String image_base64);
 
 
     @FormUrlEncoded
@@ -31,8 +34,8 @@ public interface FaceApi {
     @FormUrlEncoded
     @POST(COMPARE)
     Observable<CompareResp> compare(@Field("api_key") String api_key,
-                               @Field("api_secret") String api_secret,
-                               @Field("face_token1") String face_token1,
-                               @Field("face_token2") String face_token2);
+                                    @Field("api_secret") String api_secret,
+                                    @Field("face_token1") String face_token1,
+                                    @Field("face_token2") String face_token2);
 
 }
